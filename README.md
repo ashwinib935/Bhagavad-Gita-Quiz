@@ -13,4 +13,5 @@ on the basis of the answers given , the user will get the scores accordingly . P
 readline-sync
 chalk
 
- 
+ # Preview 
+ ![mark2](https://user-images.githubusercontent.com/110533153/188837467-9e2f4b84-841c-4550-af5e-29c3cc606a89.PNG)
