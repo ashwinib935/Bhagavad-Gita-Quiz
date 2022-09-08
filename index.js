@@ -35,8 +35,33 @@ let questions = [
   },
   questionFive = {
     question: "Who had the knowledge of Gita before Arjuna ?",
-    option: ["Karana", "Drona", "Bhishma", "Lord Krishna"],
+    option: ["Karana", "Drona", "Bhishma", "Lord Sun"],
     answer: 3
+  },
+  questionSix = {
+    question: "Lord Krishna gave this sermon where?",
+    option: ["On the battle grounds of Panipat", "On the battle grounds of Kurukshetra", "On the battle grounds of Jhansi", "None of the above"],
+    answer: 1
+  },
+  questionSeven = {
+    question: "Apart from Arjuna, who else listened to the Gita?",
+    option: ["Dhritrashtra and Sanjaya", "Only Sanjaya", "Kauravas", "None of the above"],
+    answer: 0
+  },
+  questionEight = {
+    question: "In the Gita Krishna calls Arjuna also with the name?",
+    option: ["Praṇava", "Pradyumna", "Pārta", "Parjanya"],
+    answer: 2
+  },
+  questionNine = {
+    question: "Krishna's chakra name is?",
+    option: ["Gandiva", "Gada", "Shushumna", "Sudarshana"],
+    answer: 3
+  },
+  questionTen = {
+    question: "How many verses does Gita have?",
+    option: [710, 700, 650, 800],
+    answer: 1
   }
 ]
 
@@ -55,8 +80,7 @@ function play(question, option, answer) {
   if (userAnswer == answer) {
     console.log(right("You are right"));
     userScore++;
-  }
-  else {
+  } else {
     console.log(wrong("You are wrong"));
   }
   console.log("Current score:", userScore);
